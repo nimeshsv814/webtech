@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWFORMS</title>
+
+    <link href="login.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+     
+      <form action="" onsubmit="return validateform()" id="myform" name="myform" method="post">
+      
+        <h3>sign up</h3>
+        <p id="help" style="color: red"></p>
+        <span>Username</span>
+        <input
+          type="text"
+          name="name"
+          class="box"
+          placeholder="enter your email"
+          id="name"
+        />
+        <span>Email</span>
+        <input
+          type="email"
+          name="email"
+          class="box"
+          placeholder="enter your email"
+          id="email"
+        />
+        <span>Phno</span>
+        <input
+          type="number"
+          name="phno"
+          class="box"
+          placeholder="enter your email"
+          id="phno"
+        />
+        <span>Password</span>
+        <input
+          type="password"
+          name="password"
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <span>Confirm Password</span>
+        <input
+          type="password"
+          name="password1"
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <input type="submit" value="sign up" class="button"  formaction="http://localhost:3000/save"/>
+      </form>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>

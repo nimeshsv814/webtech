@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWFORMS</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="login.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="login-form-container">
+      <div id="close-login-btn" ></div>
+     
+      <form action="" method="post" id="myform">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input
+          type="text"
+          name="name"
+          class="box"
+          placeholder="enter your name"
+          id=""
+        />
+        <span>password</span>
+        <input
+          type="password"
+          name="password"
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="button"  formaction="http://localhost:3000/login"/>
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="signup.html">create one</a></p>
+      </form>
+    </div>
+  </body>
+</html>
