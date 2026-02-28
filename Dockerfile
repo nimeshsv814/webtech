@@ -1,6 +1,4 @@
-FROM ubuntu:latest
-RUN apt-get update -y
-RUN apt-get install nginx -y
+FROM nginx
 WORKDIR /usr/share/nginx/html
 COPY . /usr/share/nginx/html
 EXPOSE 84
