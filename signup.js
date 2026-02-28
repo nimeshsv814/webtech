@@ -85,10 +85,10 @@ function start() {
 }
 
 function moveone() {
-  document.getElementById("move").innerHTML = "Kongu Engineering College";
+  document.getElementById("move").innerHTML = "Nimesh";
 }
 
 function leaveone() {
-  document.getElementById("move").innerHTML = "KEC";
+  document.getElementById("move").innerHTML = "NIMESH";
 }
 window.addEventListener("load", start, false);
